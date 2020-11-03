@@ -16,9 +16,23 @@ export const Container = styled.div`
     font-weight: 300;
   }
 
-  @media only screen and (max-width: 61.98em) {
-    .title-mobile {
-      width: 100%;
+  .title-mobile {
+    width: 100%;
+  }
+
+  br {
+    display: none;
+  }
+
+  @media only screen and (max-width: 42.98em) {
+    text-align: center;
+
+    h1 {
+      font-size: 0.8rem;
+    }
+
+    br {
+      display: block;
     }
   }
 `
