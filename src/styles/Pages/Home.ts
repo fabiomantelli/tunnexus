@@ -8,12 +8,15 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-  margin: 15px;
+  padding: 0 30px 0 30px;
 
   h1 {
     font-size: 0.9rem;
     color: ${props => props.theme.colors.text};
     margin-top: 10px;
+  }
+
+  .svgStyle {
+    width: 100%;
   }
 `

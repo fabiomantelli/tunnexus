@@ -11,7 +11,7 @@ const Home: React.FC = () => {
         <title>TunnexusMainLogo</title>
       </Head>
 
-      <TunnexusMainLogo />
+      <TunnexusMainLogo className="svgStyle" />
       <h1>Everything is code. Coming soon.</h1>
     </Container>
   )
