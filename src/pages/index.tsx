@@ -11,7 +11,7 @@ const Home: React.FC = () => {
   return (
     <>
       <Head>
-        <title>TunnexusMainLogo</title>
+        <title>Tunnexus</title>
       </Head>
       <Grid>
         <main>
