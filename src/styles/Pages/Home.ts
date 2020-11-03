@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 
   display: flex;
@@ -13,10 +13,12 @@ export const Container = styled.div`
   h1 {
     font-size: 0.9rem;
     color: ${props => props.theme.colors.text};
-    margin-top: 10px;
+    font-weight: 300;
   }
 
-  .svgStyle {
-    width: 100%;
+  @media only screen and (max-width: 61.98em) {
+    .title-mobile {
+      width: 100%;
+    }
   }
 `
