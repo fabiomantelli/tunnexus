@@ -47,6 +47,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="icon" href="https://rocketseat.com.br/favicom.ico" />
+          <title>Tunnexus</title>
         </Head>
         <body>
           <Main />
