@@ -16,6 +16,7 @@ const Column = styled.div<{
   padding?: number
   background?: boolean
   maxWidth?: number
+  width?: number
 }>`
   flex: ${props => props.size};
   ${props =>
@@ -39,6 +40,8 @@ const Column = styled.div<{
   padding-left: ${props => props.paddingLeft}rem;
   padding: ${props => props.padding}rem;
   // border: green solid 1px;
+
+  width: ${props => props.width}vw;
 `
 
 export default Column
