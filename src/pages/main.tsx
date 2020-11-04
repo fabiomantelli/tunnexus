@@ -13,7 +13,7 @@ const Main: React.FC = () => {
       <Header />
 
       <section>
-        <Row style={{ marginTop: '71px' }}>
+        <Row style={{ marginTop: '70px' }}>
           <Column size={1}>
             <Container>
               <h1>
