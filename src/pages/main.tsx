@@ -14,7 +14,7 @@ const Main: React.FC = () => {
 
       <section>
         <Row style={{ marginTop: '70px' }}>
-          <Column size={1}>
+          <Column size={1} marginLeft={2} marginRight={2}>
             <Container>
               <h1>
                 A modern web programming <br />
