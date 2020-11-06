@@ -25,7 +25,7 @@ const Header: React.FC = () => {
           />
         </Link>
       </Column>
-      <Column size={1} maxWidth={1152} marginRight={2}>
+      <Column collapse="mobileOn" size={1} maxWidth={1152} marginRight={2}>
         <Container>
           <NavBar />
         </Container>

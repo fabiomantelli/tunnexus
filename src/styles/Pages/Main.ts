@@ -19,4 +19,16 @@ export const Container = styled.div`
     font-weight: 400;
     text-align: center;
   }
+
+  @media only screen and (max-width: 42.98em) {
+    text-align: center;
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
 `
